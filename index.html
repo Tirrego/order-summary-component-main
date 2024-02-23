@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+
+    <title>Frontend Mentor | Order summary card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="font-RedHatDisplay">
+    <div class="flex justify-center items-center h-screen bg-Paleblue">
+      <div
+        class="bg-white flex flex-col items-center rounded-xl my-6 w-[16.5rem] h-[29rem]"
+      >
+        <img
+          class="rounded-t-2xl"
+          src="./images/illustration-hero.svg"
+          alt=""
+        />
+        <h1 class=" mt-6 font-black tracking-wider">Order Summary</h1>
+        <p class="px-8 mt-3 text-center text-xs text leading-5 tracking-wide text-gray-500 font-medium">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div class="flex flex-row justify-around items-center w-4/5 my-6 bg-Verypaleblue p-3 text-xs">
+          <div class=""><img class="w-9/12" src="./images/icon-music.svg" alt="" /></div>
+          <div class="">
+            <h2 class="font-bold">Annual Plan</h2>
+            <p class="font-thin">$59.99/year</p>
+          </div>
+          <div class="">
+            <a class="text-Brightblue font-black underline hover:text-blue-400" href="#">change</a>
+          </div>
+        </div>
+        <button class="bg-Brightblue hover:bg-blue-400 shadow-md mb-6 shadow-Brightblue text-white px-14 py-3 rounded-md text-xs font-bold">Proceed to Payment</button>
+        <p class="font-bold text-xs text-gray-500">Cancel Order</p>
+      </div>
+    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Gerrit Schmittel</a>.
+    </footer>
+
+    </div>
+  </body>
+</html>
